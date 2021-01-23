@@ -22,6 +22,9 @@ body{
     line-height: 1.6em;
     margin: 0;
 }
+.clr{
+    clear: both;
+}
 .container{
     width: 70%;
     margin: auto;
@@ -99,4 +102,19 @@ body{
     border: 1px solid #ccc;
     padding: 10px;
     box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+
 }
