@@ -1,0 +1,19 @@
+.container{
+display: flex;
+}
+.container div{
+    border: 2px solid rgb(53, 53, 52);
+    padding: 10px;
+}
+.box-1{
+    flex: 2;
+    order: 2;
+}
+.box-2{
+    flex: 1;
+    order: 1;
+}
+.box-3{
+    flex: 1;
+    order: 3;
+}
