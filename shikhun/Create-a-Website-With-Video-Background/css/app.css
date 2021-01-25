@@ -17,8 +17,11 @@
     background: #111;
     color: #fff;
     z-index: 3;
+    transition: all .7s linear;
 }
-
+.showcase.active{
+    right: 300px;
+}
 .showcase header{
 
     position: absolute;
@@ -48,7 +51,7 @@
     cursor: pointer;
 }
 .toggle.active{
-    background: url();
+    background: url(https://i.ibb.co/rt3HybH/close.png);
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
@@ -110,7 +113,6 @@
     -webkit-transition: ease-out 0.6s;
     transition: ease-out 0.6s;
     text-align: center;
-    
 }
 .btn:hover{
     box-shadow: inset 150px 0 0 0 #48aedd;
@@ -137,4 +139,37 @@ list-style: none;
     transform: scale(.8) translateY(-20px);
    filter:invert(1) drop-shadow(15px 10px 4px #48aedd) ;
   
+}
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul{
+    position: relative;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #111;
+}
+.menu ul li a:hover{
+    color: #03a9f4;
+}
+@media(max-width:798px){
+    .showcase,.showcase header{
+        padding:40px;
+    }
+    .text h2{
+        font-size: 3em;
+    }
+    .text{
+        font-size: 2em;
+    }
 }
