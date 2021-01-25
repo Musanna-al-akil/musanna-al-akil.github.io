@@ -49,6 +49,7 @@
     background-size: 30px;
     background-position: center;
     cursor: pointer;
+    transition: all .7s linear;
 }
 .toggle.active{
     background: url(https://i.ibb.co/rt3HybH/close.png);
