@@ -34,6 +34,8 @@
 .logo{
     text-transform: uppercase;
     cursor: pointer;
+    color: #48aedd;
+    font-size: 36px;
 }
 .toggle{
     position: relative;
@@ -67,7 +69,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #53a8cf;
+    background-color: #48aedd;
     mix-blend-mode: overlay;
 }
 .text{
@@ -93,21 +95,25 @@
     max-width: 700px;
 }
 .btn{
-    display: inline-block;
-    font-size: 1em;
     padding: 10px 30px;
-    text-decoration: none;
-    background-color: #fff;
-    color: #111;
-    margin-top: 10px;
+    display: inline-block;
+    margin-top: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    transition:  .8s;
-    box-shadow: inset 0 0 0  rgb(78, 157, 231);
+    text-decoration: none;
+    color: #FFF;
+    background: transparent;
+    border: 1px solid #48aedd;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #48aedd;
+    -webkit-transition: ease-out 0.6s;
+    transition: ease-out 0.6s;
+    text-align: center;
+    
 }
 .btn:hover{
-    box-shadow: inset 150px 0 0 0 rgb(78, 157, 231);
-    color: #fff;
+    box-shadow: inset 150px 0 0 0 #48aedd;
 }
 .social{
     position: absolute;
@@ -121,12 +127,14 @@
 list-style: none;
 }
 .social li a{
-    display: inline;
+    display: inline-block;
     filter: invert(1);
     margin-right: 20px;
-    transform: scale(.5);
+    transform: scale(.7);
     transition: 0.5s;
 }
 .social li a:hover{ 
-    transform: scale(.5) translateY(-15px);
+    transform: scale(.8) translateY(-20px);
+   filter:invert(1) drop-shadow(15px 10px 4px #48aedd) ;
+  
 }
