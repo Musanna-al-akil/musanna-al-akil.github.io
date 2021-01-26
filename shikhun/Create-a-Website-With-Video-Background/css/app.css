@@ -116,7 +116,7 @@
     text-align: center;
 }
 .btn:hover{
-    box-shadow: inset 150px 0 0 0 #48aedd;
+    box-shadow: inset 180px 0 0 0 #48aedd;
 }
 .social{
     position: absolute;
