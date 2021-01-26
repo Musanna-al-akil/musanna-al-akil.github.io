@@ -170,7 +170,7 @@ list-style: none;
     .text h2{
         font-size: 3em;
     }
-    .text{
+    .text h3{
         font-size: 2em;
     }
 }
