@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+@media (min-width: 576px) {
+    .container{
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container{
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container{
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container{
+      max-width: 1160px;
+    }
+  }
+  @media (min-width: 1699px) {
+    .container{
+      max-width: 1560px;
+    }
+  }
+/*content css*/
+#header{
+    height: 70vh;
+    width: 100%;
+    display: inline-block;
+    background:linear-gradient(to right, rgba(6, 71, 192, 0.75),rgba(128, 9, 197, 0.75)), url(../img/bg1.jpg) center/cover no-repeat fixed;
+}
+.header-text{
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+.header-text p{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+.header-text h1{
+    font-size: 10em;
+    font-weight: 400;   
+    letter-spacing: 5px;
+    line-height: 180px;
+}
+@media(max-width:768px){
+    .header-text p{
+        font-size: 1.2rem;
+        letter-spacing: 5px;
+        line-height: 1em;
+    }
+    .header-text h1{
+        font-size: 4em;
+}
+}
+.btn{
+    border: 1px solid white;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin-top: 32px;
+}
+.logo{
+    margin: 10px auto;
+}
+.reason{
+    display: flex;
+    margin: 150px auto;
+}
+.reason-text{
+    flex: 1;
+    order: 1;
+}
+.reason-img{
+    flex: 1;
+    order: 2;
+}
+img{
+    max-width: 100%;
+  height: auto;
+}
