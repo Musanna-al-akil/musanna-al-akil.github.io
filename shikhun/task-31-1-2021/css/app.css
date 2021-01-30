@@ -178,6 +178,10 @@ img{
     max-width: 100%;
   height: auto;
 }
+#reason-2{
+  height: 70vh;
+  background: url(img/bg2.jpg) center/cover no-repeat;
+}
 .reason-2{
   width: 100%;
   min-height: 60vh;
