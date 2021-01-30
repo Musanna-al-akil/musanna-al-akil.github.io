@@ -180,7 +180,7 @@ img{
 }
 #reason-2{
   height: 70vh;
-  background: url(img/bg2.jpg) center/cover no-repeat;
+  background: url(../img/bg2.jpg) center/cover no-repeat;
 }
 .reason-2{
   width: 100%;
