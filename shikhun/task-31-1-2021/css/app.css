@@ -94,15 +94,23 @@ body {
     }
     .header-text h1{
         font-size: 4em;
+        line-height: 80px;
 }
 }
 .btn{
     border: 1px solid white;
     color: white;
     padding: 12px 24px;
-    border-radius: 25px;
+    border-radius: 30px;
     font-size: 1.5rem;
     margin-top: 32px;
+    display: inline-block;
+    transition:background-color .7s linear,
+    color .5s ease-out;
+}
+.btn:hover{
+  background-color: rgba(255, 255, 255, .8);
+  color: #212529;
 }
 .logo{
     margin: 10px auto;
@@ -114,12 +122,126 @@ body {
 .reason-text{
     flex: 1;
     order: 1;
+    margin: auto auto;
 }
 .reason-img{
     flex: 1;
     order: 2;
 }
+@media (max-width: 992px) {
+  .reason{
+    
+    flex-direction: column;
+}
+.reason-text{
+  flex: 1;
+  order: 2;
+  margin: 24px auto auto auto;
+}
+.reason-img{
+  flex: 1;
+  order: 1;
+}
+}
+.reason-text h2{
+  font-size: 3rem;
+  font-weight: 400;
+  width: 410px;
+}
+.reason-text p{
+  text-align: left;
+  width: 90%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 16px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+.btn-2{
+  display: inline-block;
+  position: relative;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  margin-top: 32px;
+  opacity: .8;
+  background-image:linear-gradient(to right, rgb(6, 71, 192),rgb(128, 9, 197)) ;
+  z-index: 1;
+  
+  transition: opacity .7s linear;
+  
+}
+.btn-2:hover{
+  opacity: 1;
+}
 img{
     max-width: 100%;
   height: auto;
+}
+.reason-2{
+  width: 100%;
+  min-height: 60vh;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.reason-2 div{
+  padding-right: 0;
+  padding-left: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 50%;
+  -ms-flex-item-align: end !important;
+  align-self: flex-end !important;
+}
+.reason-2 div h2{
+  font-size: 3rem;
+  font-weight: 400;
+  width: 410px;
+  color: #fff;
+  font-weight: 400;
+}
+.reason-2 div p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color:rgba(255, 255, 255, .8);
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .reason-2 div h2{
+    font-size: 2.5rem;
+    width: 300px;
+    font-weight: 400;
+  }
+  .reason-2 div p{
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
+@media (max-width: 576px) {
+  .reason-2{
+    
+  min-height: 50vh;
+    display: flex;
+    text-align: center;
+    
+  }
+  .reason-2 div h2{
+    font-size: 2.5rem;
+    width: 100%;
+    font-weight: 400;
+  }
+  .reason-2 div p{
+    font-size: 1rem;
+    font-weight: 400;
+    
+  }
+  .reason-2 div{
+   
+    max-width: 100%;
+  }
 }
