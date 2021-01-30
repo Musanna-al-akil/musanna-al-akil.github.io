@@ -11,7 +11,6 @@ html {
 li{
     list-style: none;
 }
-
 a{
     text-decoration: none;
 }
@@ -29,27 +28,23 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
-    
+    margin-left: auto; 
 }
 @media (min-width: 576px) {
     .container{
       max-width: 540px;
     }
   }
-  
   @media (min-width: 768px) {
     .container{
       max-width: 720px;
     }
   }
-  
   @media (min-width: 992px) {
     .container{
       max-width: 960px;
     }
   }
-  
   @media (min-width: 1200px) {
     .container{
       max-width: 1160px;
@@ -87,15 +82,15 @@ body {
     line-height: 180px;
 }
 @media(max-width:768px){
-    .header-text p{
-        font-size: 1.2rem;
-        letter-spacing: 5px;
-        line-height: 1em;
-    }
-    .header-text h1{
-        font-size: 4em;
-        line-height: 80px;
-}
+  .header-text p{
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    line-height: 1em;
+  }
+  .header-text h1{
+    font-size: 4em;
+    line-height: 80px;
+  }
 }
 .btn{
     border: 1px solid white;
@@ -113,35 +108,34 @@ body {
   color: blueviolet;
 }
 .logo{
-    margin: 10px auto;
+  margin: 10px auto;
 }
 .reason{
-    display: flex;
-    margin: 150px auto;
+  display: flex;
+  margin: 150px auto;
 }
 .reason-text{
-    flex: 1;
-    order: 1;
-    margin: auto auto;
+  flex: 1;
+  order: 1;
+  margin: auto auto;
 }
 .reason-img{
-    flex: 1;
-    order: 2;
+  flex: 1;
+  order: 2;
 }
 @media (max-width: 992px) {
   .reason{
-    
     flex-direction: column;
-}
-.reason-text{
-  flex: 1;
-  order: 2;
-  margin: 24px auto auto auto;
-}
-.reason-img{
-  flex: 1;
-  order: 1;
-}
+  }
+  .reason-text{
+    flex: 1;
+    order: 2;
+    margin: 24px auto auto auto;
+  }
+  .reason-img{
+    flex: 1;
+    order: 1;
+  }
 }
 .reason-text h2{
   font-size: 3rem;
@@ -167,9 +161,7 @@ body {
   opacity: .8;
   background-image:linear-gradient(to right, rgb(6, 71, 192),rgb(128, 9, 197)) ;
   z-index: 1;
-  
   transition: opacity .7s linear;
-  
 }
 .btn-2:hover{
   opacity: 1;
@@ -188,7 +180,6 @@ img{
   position: relative;
   display: flex;
   justify-content: flex-end;
-  
 }
 .reason-2 div{
   padding-right: 0;
@@ -214,7 +205,6 @@ img{
   color:rgba(255, 255, 255, .8);
   font-weight: 400;
 }
-
 @media (max-width: 991px) {
   .reason-2 div h2{
     font-size: 2.5rem;
@@ -228,11 +218,9 @@ img{
 }
 @media (max-width: 576px) {
   .reason-2{
-    
-  min-height: 50vh;
+    min-height: 50vh;
     display: flex;
-    text-align: center;
-    
+    text-align: center; 
   }
   .reason-2 div h2{
     font-size: 2.5rem;
@@ -242,10 +230,8 @@ img{
   .reason-2 div p{
     font-size: 1rem;
     font-weight: 400;
-    
   }
   .reason-2 div{
-   
     max-width: 100%;
   }
 }
