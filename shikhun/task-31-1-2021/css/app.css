@@ -92,6 +92,16 @@ body {
     line-height: 80px;
   }
 }
+@media(max-width:576px){
+
+  .header-text h1{
+    font-size: 3rem;
+    line-height: 80px;
+  }
+  .reason-text h2{
+    width: 300px;
+  }
+}
 .btn{
     border: 1px solid white;
     color: white;
@@ -141,6 +151,12 @@ body {
   font-size: 3rem;
   font-weight: 400;
   width: 410px;
+}
+@media(max-width:576px){
+  .reason-text h2{
+    font-size: 2.5rem;
+    width: 340px;
+  }
 }
 .reason-text p{
   text-align: left;
