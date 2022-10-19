@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-=======
 }
 html {
   font-family: sans-serif;
@@ -59,7 +57,7 @@ body {
   }
 /*content css*/
 #header{
-    height: 70vh;
+    height: 680px;
     width: 100%;
     display: inline-block;
     background:linear-gradient(to right, rgba(6, 71, 192, 0.75),rgba(128, 9, 197, 0.75)), url(../img/bg1.jpg) center/cover no-repeat fixed;
@@ -252,5 +250,4 @@ img{
   .reason-2 div{
     max-width: 100%;
   }
->>>>>>> 28ba03a1c87637262425d453b5b86968706e1790
 }
